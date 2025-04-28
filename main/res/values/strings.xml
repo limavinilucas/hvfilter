@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">deepseekHV</string>
+    <string name="selecione_alimentador">Selecione o Alimentador:</string>
+    <string name="selecione_direcao">Selecione a Direção:</string>
+    <string name="digite_distancia">Digite a Distância:</string>
+    <string name="buscar">Buscar</string>
+</resources>
