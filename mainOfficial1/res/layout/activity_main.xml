@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Spinner para selecionar o Alimentador -->
+
+    <!-- Spinner para selecionar a Direção -->
+    <Spinner
+        android:id="@+id/spinnerAlimentador"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDirecao"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <!-- Campo para inserir a Distância -->
+    <EditText
+        android:id="@+id/editTextDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Insira a distância"
+        android:inputType="numberDecimal" />
+
+    <!-- Botão para executar a filtragem -->
+    <Button
+        android:id="@+id/buttonFiltrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtrar" />
+
+    <!-- Resultado da filtragem -->
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultados aparecerão aqui"
+        android:textSize="16sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
