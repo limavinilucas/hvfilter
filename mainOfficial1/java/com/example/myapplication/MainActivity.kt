@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 val columns = line.split(";")
                 if (columns.size >= 5) {
                     val alimentador = columns[0]
-                    val direcao = alimentador.split(" ")[0]
+                    val direcao = alimentador.split("/")[0]
                     val estrutura = columns[2]
                     val tipo = columns[3]
                     val kmLocal = columns[4].replace(",", ".").toDoubleOrNull() ?: 0.0
